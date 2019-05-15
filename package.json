@@ -1,0 +1,35 @@
+{
+  "name": "hooks-canvas-animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel index.html",
+    "watch": "parcel watch index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0",
+    "use-react-router": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/core-js": "^2.5.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-router-dom": "^4.3.2",
+    "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.17.0",
+    "sass": "^1.18.0",
+    "typescript": "^3.4.3"
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  }
+}
